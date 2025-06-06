@@ -121,7 +121,7 @@ nav a:hover{
 .right-top-text{
   position: absolute;
     top: 26%;
-    left: 15%;
+    /* left: 15%; */
   font-size: 30px;
   font-family: Roboto, Arial;
   font-weight: 900;
