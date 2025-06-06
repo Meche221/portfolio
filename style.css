@@ -83,10 +83,10 @@ nav a:hover{
  height: 897px;
   width: 700px;
   margin-left: 600px;
- background-color: lightblue;
+ /* background-color: lightblue; */
  display: flex;
  flex-direction: column;
- 
+
 }
 
 
@@ -120,16 +120,30 @@ nav a:hover{
 
 .right-top-text{
   position: absolute;
-    top: 26%;
-    /* left: 15%; */
-  font-size: 30px;
+  top: 22%;
+   left: 23%;
+  font-size: 55px;
   font-family: Roboto, Arial;
   font-weight: 900;
   /* margin-left: 100px; */
   /* margin-top: 20px; */
-  background: #04ef7d;
+  /* background: #04ef7d; */
   color: black
-  border: 2px solid red;
+}
+
+.right-top-text2{
+  font-size: 23px;
+  font-family: Roboto, Arial;
+  line-height: 0;
+  margin-top:55px;
+}
+
+.right-top-text3{
+  font-size: 20px;
+  font-family: Roboto, Airal;
+  font-weight: 300;
+  margin-top: 100px;
+  width: 400px;
 }
 
 .profile-icon{
@@ -150,3 +164,15 @@ nav a:hover{
   background-color: rgb(212, 211, 211);
 }
 
+
+.footer{
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer-text{
+ color: rgb(186, 186, 186);
+}
